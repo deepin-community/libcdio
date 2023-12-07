@@ -1,3 +1,5 @@
 ncursesw.diff
 Drop-LIBCDIO_SOURCE_PATH-by-dropping-STRIP_FROM_PATH.patch
 src-cdda-player.c-always-use-s-style-format-for-prin.patch
+Correct-realpath-test-failure.patch
+Use-getmntent-setmntent-for-reading-mounts.patch

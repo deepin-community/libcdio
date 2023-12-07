@@ -16,7 +16,7 @@ Homepage: https://www.gnu.org/software/libcdio/
 Package: libcdio-dev
 Section: libdevel
 Architecture: any
-Depends: libcdio19 (= ${binary:Version}), ${libcdev}, libcam-dev [kfreebsd-any], ${misc:Depends}, dpkg (>= 1.15.4) | install-info
+Depends: libcdio19 (= ${binary:Version}), ${libcdev}, libcam-dev [kfreebsd-any], ${misc:Depends}
 Description: library to read and control CD-ROM (development files)
  This package contains development files (headers and static library)
  for the libcdio library.
